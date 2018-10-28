@@ -1,0 +1,7 @@
+{
+  "name": "ticketbazaar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
