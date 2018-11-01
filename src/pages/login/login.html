@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Ticket Bazaar</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-input [(ngModel)]="loginData.email" type="text" placeholder="Email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input [(ngModel)]="loginData.password" type="password" placeholder="Password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <button ion-button (click)="login()" large block color="dark">LOGIN</button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
